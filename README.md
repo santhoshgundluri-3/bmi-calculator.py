@@ -1,58 +1,88 @@
-# bmi-calculator.py
-⚖️ BMI Calculator Python
-A desktop BMI Calculator developed as Oasis Infobyte Python Internship — Project 2 using Python and Tkinter.
+# ⚖️ BMI Calculator
 
-🎓 Oasis Infobyte Internship — Project 2
-Project: BMI Calculator
-Internship: Python Programming Internship — Oasis Infobyte
+A simple **Python-based BMI Calculator** that calculates Body Mass Index using a person's height and weight and determines their corresponding BMI category.
 
-This project demonstrates practical Python programming through GUI development, input validation, unit conversion, BMI calculation, and local data storage.
+## 🚀 Features
 
-✨ Features
-Calculate BMI using metric or imperial units
-Switch between kg/m and lbs/inches
-Display BMI category with a visual scale
-Show category-based health tips
-Save and view recent calculations locally
-Clear saved history
-Validate invalid and non-positive inputs
-Clean Tkinter desktop interface
-🧠 Application Flow
-User Input → Unit Selection → Validation → Conversion → BMI Calculation → Category → History
-🛠️ Tech Stack
-Python
-Tkinter — desktop GUI
-JSON — local history storage
-datetime — timestamps
-📐 BMI Formula
-BMI = weight (kg) / height² (m²)
-Imperial values are converted to metric units before calculation.
+- ⚖️ Calculates BMI accurately
+- 📏 Takes height as input
+- 🏋️ Takes weight as input
+- 📊 Displays BMI value
+- 📋 Identifies BMI category
+- ⚡ Simple and easy to use
 
-📊 BMI Categories
-BMI Range	Category
-Below 18.5	Underweight
-18.5 – 24.9	Normal weight
-25.0 – 29.9	Overweight
-30.0+	Obese
-Educational project only; BMI results should not be treated as medical advice.
+## 🛠️ Technologies Used
 
-🚀 Run Locally
-git clone https://github.com/santhoshgundluri-3/bmi-calculator-python.git
-cd bmi-calculator-python
-python bmi_calculator.py
-No external packages are required for the application; Tkinter is included with most standard Python desktop installations.
+- **Python**
+- Basic Python concepts
+- Conditional statements
+- User input
 
-📂 Project Structure
-bmi-calculator-python/
+## 📂 Project Structure
+
+```text
+BMI-Calculator/
+│
 ├── bmi_calculator.py
-├── requirements.txt
 └── README.md
-🎓 Internship Details
-Oasis Infobyte Python Internship — Project 2
-Project: BMI Calculator
+```
 
-Demonstrates Python programming, GUI development, input validation, file handling, JSON storage, and application logic.
+## ▶️ How to Run
 
-👩‍💻 Author
-SANTHOSH GUNDLURI
-Python | AI & Machine Learning | Data Science
+### 1. Clone the repository
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_LINK
+```
+
+### 2. Open the project folder
+
+```bash
+cd BMI-Calculator
+```
+
+### 3. Run the program
+
+```bash
+python bmi_calculator.py
+```
+
+## 💡 How It Works
+
+The program takes the user's **weight in kilograms** and **height in meters**, then calculates BMI using:
+
+```text
+BMI = Weight (kg) / Height² (m²)
+```
+
+The calculated BMI is then compared with standard BMI ranges to display the corresponding category.
+
+## 📌 Example
+
+```text
+Enter your weight: 60
+Enter your height: 1.65
+
+Your BMI is: 22.04
+Category: Normal Weight
+```
+
+## 🎯 Learning Outcomes
+
+Through this project, I practiced:
+
+- Python programming
+- Mathematical calculations
+- User input handling
+- Conditional statements
+- Basic problem-solving
+
+## 👩‍💻 Author
+
+**SANTHOSH GUNDLURI**
+
+GitHub: `santhoshgundluri-3`
+
+## ⭐ Support
+
+If you find this project useful, consider giving it a ⭐ on GitHub!
