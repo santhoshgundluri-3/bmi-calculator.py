@@ -1,4 +1,4 @@
-# ⚖️ BMI Calculator
+# ⚖️ BMI Calculator — Oasis Infobyte Project 2
 
 A simple **Python-based BMI Calculator** that calculates Body Mass Index using a person's height and weight and determines their corresponding BMI category.
 
